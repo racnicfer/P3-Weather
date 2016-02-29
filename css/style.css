@@ -1,0 +1,67 @@
+html {
+  background-image:url(http://whereintheworldisdeb.com/wp-content/uploads/2014/07/DSCF1922.jpg);
+  background-size: 100%;
+  color: #E2A064;
+  padding-top: 75px;
+  font-family: 'Playfair Display', serif;
+  font-size: 2em;
+}
+.tabs {
+  margin: 0 auto;
+  text-align: center;
+  margin-top: 1em;
+}
+li  {
+  border-radius: 8px;
+}
+h3 {
+  padding-top: .1em;
+  margin: 0 auto;
+  font-size: 3em;
+}
+i {
+  margin: 0 auto;
+  font-size: 2em;
+  color: #E2A064;
+  margin-bottom: 1em;
+}
+.active{
+  background: #DA895F !important;
+  border-bottom: 4px solid #F2AB90 !important;
+}
+.question {
+  margin: 10 auto;
+  text-align: center;
+  color: white;
+  letter-spacing: .1em;
+  font-size: 1.5em;
+  background: rgba(126, 138, 137, 0.61);
+}
+.tabs li:active, .tabs li:hover {
+   text-color: white;
+  background: #DA895F;
+  border-bottom: 4px solid #F2AB90;
+}
+#tab-1 div, #tab-2 div, #tab-3 div {
+  background: rgba(126, 138, 137, 0.61);
+  display: inline-block;
+  padding: .5em;
+  width: 45%;
+  height: 200px;
+  border-radius: 10px;
+}
+div#image {
+  display: inline-block;
+  float: right;
+}
+.tabs li{
+  margin:1.25em;
+}
+.tabs a {
+  margin: .15em 1em;
+  color: #75C5E2;
+}
+.tabs div {
+  margin: 0 .4em auto;
+}
+
